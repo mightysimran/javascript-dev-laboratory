@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin-top: 6%;
+  margin-bottom: 15px;
+}
+
+.color {
+  border: 2.5px solid black;
+  width: 144px;
+  height: 144px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#white {
+  background-color: white;
+}
+
+#red {
+  background-color: red;
+}
+
+#orangered {
+  background-color: orangered;
+}
+
+#gold {
+  background-color: gold;
+}
+
+#mediumslateblue {
+  background-color: mediumslateblue;
+}
+
+#darkslateblue {
+  background-color: darkslateblue;
+}
+
+#chartreuse {
+  background-color: chartreuse;
+}
+
+#lime {
+  background-color: lime;
+}
+
+#springgreen {
+  background-color: springgreen;
+}
+
+#dodgerblue {
+  background-color: dodgerblue;
+}
+
+#blue {
+  background-color: mediumblue;
+}
+
+#chocolate {
+  background-color: chocolate;
+}
+
+#silver {
+  background-color: silver;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
