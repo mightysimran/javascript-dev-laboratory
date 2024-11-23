@@ -1,0 +1,32 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#center {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#center p {
+  font-size: 1.25rem;
+}
+
+#now {
+  font-size: 40px;
+  background-color: blue;
+  padding: 15px 44px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
