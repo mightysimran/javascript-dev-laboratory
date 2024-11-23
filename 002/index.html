@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mCal | Laboratory</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>mCal</h1>
+      <p>
+        Estimate your daily energy requirements (maintenance calories) in
+        seconds!
+      </p>
+      <form method="post">
+        <div class="in">
+          <label for="g">Gender</label>
+          <span><input type="radio" name="g" value="male" /> Male</span>
+          <span><input type="radio" name="g" value="female" /> Female</span>
+        </div>
+        <div class="in">
+          <label for="weight">Weight (in kg)</label>
+          <input type="text" id="weight" />
+        </div>
+        <div class="in">
+          <label for="height">Height (in cm)</label>
+          <input type="text" id="height" />
+        </div>
+        <div class="in">
+          <label for="age">Age</label>
+          <input type="text" id="age" />
+        </div>
+        <div class="in">
+          <label for="activity-level">Activity Level</label>
+          <select name="activity-level" id="activity-level" title="Hi">
+            <option value="">Select</option>
+            <option value="sedentary">Little/no workout</option>
+            <option value="lightly-active">Light workout 1–3 times/week</option>
+            <option value="moderately-active">
+              Moderate workout 3–5 times/week
+            </option>
+            <option value="very-active">Hard workout 6–7 times/week</option>
+            <option value="super-active">
+              Intense workout or 2x training/day
+            </option>
+          </select>
+        </div>
+        <button>Calculate!</button>
+      </form>
+      <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

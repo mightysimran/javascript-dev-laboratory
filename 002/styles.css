@@ -1,0 +1,83 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+@import url("https://fonts.cdnfonts.com/css/young-serif");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.in {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  margin: 16px 0;
+}
+
+.in input {
+  font-size: 1.5rem;
+}
+
+.in select,
+.in input[type="text"] {
+  width: 56%;
+}
+
+.in label {
+  font-weight: bold;
+}
+
+select option {
+  font-size: 1rem;
+}
+
+#container h1 {
+  /* font-family: "Young Serif", serif; */
+  font-size: 2.44rem;
+  text-align: center;
+}
+
+#container p {
+  font-style: italic;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 84%;
+  margin-top: 29px;
+}
+
+form button {
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 16px;
+  border: 2px solid black;
+}
+
+#results {
+  font-size: 2.25rem;
+  margin: 29px 0;
+  font-weight: bold;
+  font-style: italic;
+}
