@@ -23,10 +23,7 @@ if(initGame){
 }
 
 function validate(guess){
-    if(!guess){
-        alert("Enter something in the input field.")
-    }
-    else if(isNaN(guess)){
+    if(isNaN(guess)){
         alert("Enter a valid number.")
     }else if (guess < 1){
         alert("The number must be greater than zero.")
